@@ -1,0 +1,26 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: your-google-app-client-id
+            client-secret: google-your-app-client-secret
+          # github:
+          #   client-id: your-github-app-client-id
+          #   client-secret: your-github-app-client-secret
+          # facebook:
+          #   client-id: your-facebook-app-client-id
+          #   client-secret: your-facebook-app-client-secret
+          # okta:
+          #   client-id: your-okta-app-client-id
+          #   client-secret: your-okta-app-client-secret
+
+  ldap:
+    embedded:
+      base-dn: dc=springframework,dc=org
+      ldif: classpath:test-server.ldif
+      port: 8389
+
+logging:
+  file: application.log
