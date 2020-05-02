@@ -1,4 +1,3 @@
-
 ## Setup
 
 In root directory, run:
@@ -8,7 +7,7 @@ In root directory, run:
 
 ### Frontend
 
-`cd frontend`
+In frontend directory, run:
 `npm start`
 
 ### Backend
