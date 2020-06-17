@@ -1,3 +1,7 @@
+# React Spring Template
+
+Template project for web applications using React frontend and Spring Boot backend
+
 ## Setup
 
 In root directory, run:
